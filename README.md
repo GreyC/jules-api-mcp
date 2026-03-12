@@ -1,4 +1,4 @@
-# jules-mcp
+# jules-api-mcp
 
 An [MCP](https://modelcontextprotocol.io) server for [Jules](https://jules.google.com) — Google's AI coding agent. Manage Jules sessions from any MCP-compatible client: Claude, Gemini CLI, Cursor, Zed, VS Code, and more.
 
@@ -25,8 +25,8 @@ An [MCP](https://modelcontextprotocol.io) server for [Jules](https://jules.googl
 ### From source
 
 ```bash
-git clone https://github.com/GreyC/jules-mcp
-cd jules-mcp
+git clone https://github.com/GreyC/jules-api-mcp
+cd jules-api-mcp
 npm install
 npm run build
 ```
@@ -40,7 +40,7 @@ Add to your MCP client config (e.g. `~/.claude/claude_desktop_config.json` or `~
   "mcpServers": {
     "jules": {
       "command": "node",
-      "args": ["/path/to/jules-mcp/dist/index.js"],
+      "args": ["/path/to/jules-api-mcp/dist/index.js"],
       "env": {
         "JULES_API_KEY": "<your-key>"
       }

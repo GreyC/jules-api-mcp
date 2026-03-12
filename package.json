@@ -1,10 +1,10 @@
 {
-  "name": "jules-mcp",
+  "name": "jules-api-mcp",
   "version": "1.0.0",
   "description": "MCP server for Jules (Google AI coding agent) REST API",
   "main": "dist/index.js",
   "bin": {
-    "jules-mcp": "dist/index.js"
+    "jules-api-mcp": "dist/index.js"
   },
   "files": [
     "dist/"
